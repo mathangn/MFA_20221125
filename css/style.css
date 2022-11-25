@@ -4,11 +4,11 @@ body{
 *{
     font-family: Barlow;
 }
-/* #arrow-down{
-    position:absolute;
-    height: 200px;
-    width: 100px;
-} */
+#arrow-down{
+    position: absolute;
+    left: 50%;
+    margin-top: 25%;
+}
 nav{
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ nav ul a{
     letter-spacing: 3px; 
 }
 /* nav finished */
-#container img{
+#container #orange{
     width: 99%;
     z-index: -1;
 }
@@ -55,6 +55,7 @@ nav ul a{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 /* .container2 img{
     width: 100%;
@@ -121,16 +122,52 @@ main img{
 #client{
     text-align: center;
     color: #a9aaaa;
+    background-color: white;
+    position: absolute;
+    left: 40%;
 }
 main{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     font-size: 20px;
+    background-color: white;
+    padding-top: 100px;
 }
 main p{
     color: #5b5d62;
 }
 main h6{
-    color: white;
+    color: gray;
+}
+#last{
+    display: flex;
+    flex-wrap: wrap;
+}
+#last img{
+    width: 367px;
+}
+/* footer starting */
+footer{
+    background-color: #90d4c5;
+    height: 200px;
+    padding-top: 1px;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #90d4c5;
+}
+footer a{
+    text-decoration: none;
+    color: #4b9181;
+    margin-right: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
